@@ -3,5 +3,7 @@ This is the keras implementation of focal loss proposed by [Lin](https://vision.
 # Usage
 You have to compile your model with focal loss.
 Sample:
-`model_prn.compile(optimizer=optimizer, loss=[focal_loss(2,2)])`
+```
+model_prn.compile(optimizer=optimizer, loss=[focal_loss(2,2)])
+```
 
